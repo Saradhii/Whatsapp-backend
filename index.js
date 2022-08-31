@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(
     cors({
-      origin: ["http://localhost:3000","https://whatsapp-frontend-rouge.vercel.app"],
+      origin: ["http://localhost:3000","https://whatsapp-frontend-rouge.vercel.app","https://vocal-panda-d92892.netlify.app"],
     })
   );
 app.use("/user",UserRoute);
