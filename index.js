@@ -17,7 +17,7 @@ app.use(
 app.use("/user",UserRoute);
 app.use("/message",MessagesRoute);
 
-//testing
+
 app.get("/",(req,res)=>{
   res.send("whatsapp clone working....")
 })
