@@ -22,7 +22,7 @@ app.get("/",(req,res)=>{
   res.send("whatsapp clone working....")
 })
 
-// starting the server && checking db connection
+
 const PORT = process.env.PORT || 8060
 app.listen(PORT, async () => {
     try {
